@@ -1,7 +1,8 @@
 import Nav from "./Components/Nav";
 import Font from './Font';
 import About from './Components/About'; 
-import Rooms from './Components/Rooms'
+import Rooms from './Components/Rooms';
+import Services  from "./Components/Services";
 
 const App = () => {
  
@@ -12,7 +13,8 @@ const App = () => {
         </div>
       <Font/>
       <About />
-      <Rooms/>
+      <Rooms />
+      <Services/>
 
     </>
  

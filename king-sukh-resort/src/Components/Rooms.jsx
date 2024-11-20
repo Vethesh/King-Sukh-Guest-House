@@ -2,19 +2,21 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
+import Large from "./Img/large.jpg"; 
+import Small from "./Img/small.jpg"; 
 
 const rooms = [
   {
     title: 'Cozy Haven Room',
     description: 'Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.',
     price: 1000,
-    imageUrl: 'https://via.placeholder.com/300x200?text=Cozy+Haven+Room'
+    imageUrl: Large
   },
   {
     title: 'Spacious Serenity Suite',
     description: 'Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.',
     price: 1500,
-    imageUrl: 'https://via.placeholder.com/300x200?text=Spacious+Serenity+Suite'
+    imageUrl: Small
   }
 ];
 
