@@ -1,10 +1,10 @@
+import React, { useEffect } from 'react';
+import ReactDOM from 'react-dom/client';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React, { useEffect } from 'react';
 import Palash from "./Img/palash.webp";
 import { AiOutlineSafety, AiOutlineClockCircle } from "react-icons/ai";
 import { FaUtensils, FaMapMarkerAlt } from "react-icons/fa";
-
 const Services = () => {
     useEffect(() => {
         AOS.init({
@@ -71,3 +71,33 @@ const Services = () => {
 };
 
 export default Services;
+
+
+const App = () => {
+  return (
+      <div>
+          <div className="flex items-center justify-center h-screen bg-gray-50">
+              <div className="flex w-full max-w-3xl rounded-lg bg-white shadow-md">
+                  {/* First Stat */}
+                  <div className="flex-1 text-center border-r border-gray-200 p-8">
+                      <h2 className="text-4xl font-bold text-gray-800">100+</h2>
+                      <p className="mt-2 text-gray-500">Bookings Completed</p>
+                  </div>
+                  {/* Second Stat */}
+                  <div className="flex-1 text-center p-8">
+                      <h2 className="text-4xl font-bold text-gray-800">150+</h2>
+                      <p className="mt-2 text-gray-500">Happy Customers</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  );
+};
+
+// Render the App
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+      <App />
+  </React.StrictMode>
+);
+

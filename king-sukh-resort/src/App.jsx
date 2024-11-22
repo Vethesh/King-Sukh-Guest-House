@@ -2,7 +2,10 @@ import Nav from "./Components/Nav";
 import Font from './Font';
 import About from './Components/About'; 
 import Rooms from './Components/Rooms';
-import Services  from "./Components/Services";
+import Services from "./Components/Services";
+import Review from "./Components/Review";
+import Gallery from "./Components/Gallery";
+import Form from "./Components/Form";
 
 const App = () => {
  
@@ -14,7 +17,11 @@ const App = () => {
       <Font/>
       <About />
       <Rooms />
-      <Services/>
+      <Services />
+      <Review />
+      <Gallery />
+      <Form/>
+      
 
     </>
  
