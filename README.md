@@ -25,36 +25,36 @@ To get started with the King-Sukh Resort Landing Page, follow these steps:
 
 ### 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/king-sukh-resort.git
+
+- **git clone https://github.com/your-username/king-sukh-resort.git**
 
 
-2. Install dependencies:
+### 2. Install dependencies:
    Navigate to the project folder and install the necessary dependencies using npm:
    cd king-sukh-resort
    npm install
    
-4. Run the development server:
+### 3. Run the development server:
    Start the development server using:
    npm run dev
 
-Project Structure
-src/: Contains all the source code files
-components/: Contains React components like Navbar, AboutUs, etc.
-Img/: Contains all images used in the landing page (e.g., guest house image).
-styles/: If any custom CSS is required, it will be placed here.
-App.jsx: Main entry point for the React application.
-index.jsx: The root file to render the React app.
-public/: Contains static assets like the favicon, etc.
+### Project Structure
+- **src/**: Contains all the source code files
+- **components/**: Contains React components like Navbar, AboutUs, etc.
+- **Img/**: Contains all images used in the landing page (e.g., guest house image).
+- **styles/**: If any custom CSS is required, it will be placed here.
+- **App.jsx**: Main entry point for the React application.
+- **index.jsx**: The root file to render the React app.
+- **public/**: Contains static assets like the favicon, etc.
 
-Tailwind CSS Setup
+### Tailwind CSS Setup
 This project is configured to use Tailwind CSS. Here are the steps to customize the configuration if needed:
 Tailwind CSS Configuration: The configuration file is located in tailwind.config.js. You can modify the content, themes, or extend the design as per the requirements.
 Custom Styling: Custom styles can be added inside the src/styles/ directory, where you can use Tailwind's utility classes or extend them based on project needs.
 
-Features to Explore
-Navbar: A fully functional and interactive navbar with a toggle for mobile views.
-About Us Section: Learn about the resort and its offerings.
-Services Section: Information about the services provided by the resort.
-Rooms Section: Showcase of available rooms with brief descriptions.
-Contact Section: A contact form and quick access to the resort's phone number and WhatsApp for direct inquiries.
+### Features to Explore
+- **Navbar**: A fully functional and interactive navbar with a toggle for mobile views.
+- **About Us Section**: Learn about the resort and its offerings.
+- **Services Section**: Information about the services provided by the resort.
+- **Rooms Section**: Showcase of available rooms with brief descriptions.
+- **Contact Section**: A contact form and quick access to the resort's phone number and WhatsApp for direct inquiries.
