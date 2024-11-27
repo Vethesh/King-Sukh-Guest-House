@@ -1,25 +1,33 @@
-King-Sukh Resort Landing Page
-A beautiful and responsive landing page for King-Sukh Resort built using React, Vite, and Tailwind CSS. This landing page serves as an online presence for the resort, showcasing various sections such as Home, About Us, Services, Rooms, Gallery, and Contact details.
+# King-Sukh Resort Landing Page
 
-Features
-Responsive Design: The layout is fully responsive, ensuring a seamless experience across mobile, tablet, and desktop devices.
-Smooth Scrolling: The page utilizes smooth scrolling for navigation between sections (Home, About, Services, etc.).
-Interactive Navbar: A sticky and collapsible navbar that adjusts based on screen size.
-Image Gallery: A section displaying images of the resort with hover effects.
-AOS Animations: Visual animations on scroll to make the user experience more engaging.
-Contact Information: Easy access to contact information with a call-to-action button that links to WhatsApp for booking inquiries.
+A beautiful and responsive landing page for **King-Sukh Resort** built using **React**, **Vite**, and **Tailwind CSS**. This landing page serves as an online presence for the resort, showcasing various sections such as Home, About Us, Services, Rooms, Gallery, and Contact details.
 
-Tech Stack
-React: JavaScript library for building the user interface.
-Vite: Next-generation, fast build tool for modern web development.
-Tailwind CSS: Utility-first CSS framework for fast styling and responsive design.
-AOS (Animate On Scroll): Library for adding animations on scroll.
-React-Scroll: Smooth scrolling and active link highlighting during navigation.
-Installation
+## Features
+
+- **Responsive Design**: The layout is fully responsive, ensuring a seamless experience across mobile, tablet, and desktop devices.
+- **Smooth Scrolling**: The page utilizes smooth scrolling for navigation between sections (Home, About, Services, etc.).
+- **Interactive Navbar**: A sticky and collapsible navbar that adjusts based on screen size.
+- **Image Gallery**: A section displaying images of the resort with hover effects.
+- **AOS Animations**: Visual animations on scroll to make the user experience more engaging.
+- **Contact Information**: Easy access to contact information with a call-to-action button that links to WhatsApp for booking inquiries.
+
+## Tech Stack
+
+- **React**: JavaScript library for building the user interface.
+- **Vite**: Next-generation, fast build tool for modern web development.
+- **Tailwind CSS**: Utility-first CSS framework for fast styling and responsive design.
+- **AOS (Animate On Scroll)**: Library for adding animations on scroll.
+- **React-Scroll**: Smooth scrolling and active link highlighting during navigation.
+
+## Installation
+
 To get started with the King-Sukh Resort Landing Page, follow these steps:
 
-1. Clone the repository:
-   git clone https://github.com/your-username/king-sukh-resort.git
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/king-sukh-resort.git
+
 
 2. Install dependencies:
    Navigate to the project folder and install the necessary dependencies using npm:
