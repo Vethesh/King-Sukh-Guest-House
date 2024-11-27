@@ -6,22 +6,21 @@ import Services from "./Components/Services";
 import Review from "./Components/Review";
 import Gallery from "./Components/Gallery";
 import Form from "./Components/Form";
+import Footer from "./Components/Footer";
 
 const App = () => {
  
   return (
     <>
-      <div className="bg-slate-900">
-        <Nav />
-        </div>
-      <Font/>
+      <Nav />
+      {/* <Font/> */}
       <About />
       <Rooms />
       <Services />
       <Review />
       <Gallery />
-      <Form/>
-      
+      <Form />
+      <Footer/>
 
     </>
  

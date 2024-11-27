@@ -36,8 +36,8 @@ function Gallery() {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <h1 className="text-center text-3xl font-bold py-4">GALLARY------</h1>
+    <div id="gallery" className="bg-gray-100 min-h-screen">
+      <h2 className="text-center text-sm font-semibold text-gray-600 mb-2">GALLARY------</h2>
       <div className="max-w-4xl mx-auto mt-8">
         <Slider {...settings}>
           {images.map((image, index) => (

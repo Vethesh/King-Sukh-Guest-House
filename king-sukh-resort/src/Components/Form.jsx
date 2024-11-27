@@ -1,13 +1,38 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-
+import emailjs from "emailjs-com";
 const Form = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+console.log('clicked')
+var templateParams = {
+  name: 'James',
+  notes: 'Check this out!',
+};
+
+    emailjs
+      .send(
+        "service_2c0idwj", // Replace with your EmailJS Service ID
+        "template_g1ikx6o", // Replace with your EmailJS Template ID
+        templateParams,
+        "0SV-Wds9IVIpE1MVl"
+      )
+      .then(
+        (response) => {
+          console.log("Email sent successfully:", response.status, response.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.error("Failed to send email:", error);
+          alert("Failed to send message. Please try again later.");
+        }
+      );
+  };
 
     
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-5">
+    <div id="contact" className="min-h-screen flex items-center justify-center bg-gray-100 p-5">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full grid grid-cols-1 lg:grid-cols-2">
      
         <div className="bg-pink-500 text-white p-8 flex flex-col justify-between">
@@ -81,6 +106,7 @@ const Form = () => {
             <button
               type="submit"
               className="w-full bg-pink-500 text-white py-3 rounded-lg hover:bg-pink-600 transition"
+              onClick={handleSubmit}
             >
               Send
             </button>
